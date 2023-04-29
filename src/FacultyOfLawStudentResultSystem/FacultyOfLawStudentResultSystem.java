@@ -134,7 +134,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        jComboBox9 = new javax.swing.JComboBox<>();
+        jcboGender = new javax.swing.JComboBox<>();
         jtxtTotalScore1 = new javax.swing.JTextField();
         jtxtTotalScore2 = new javax.swing.JTextField();
         jtxtTotalScore = new javax.swing.JTextField();
@@ -151,7 +151,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jComboBox11 = new javax.swing.JComboBox<>();
+        jcboCourse = new javax.swing.JComboBox<>();
         jtxtTotalScore10 = new javax.swing.JTextField();
         jtxtTotalScore11 = new javax.swing.JTextField();
         jtxtTotalScore12 = new javax.swing.JTextField();
@@ -211,6 +211,11 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
 
         jbtnReset.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jbtnReset.setText("Сброс");
+        jbtnReset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtnResetActionPerformed(evt);
+            }
+        });
         jPanel3.add(jbtnReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 20, 90, 40));
 
         jbtnExit.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -622,14 +627,14 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jLabel8.setText("E-mail");
         jPanel7.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, -1, -1));
 
-        jComboBox9.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Мужской", "Женский" }));
-        jComboBox9.addActionListener(new java.awt.event.ActionListener() {
+        jcboGender.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jcboGender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Мужской", "Женский" }));
+        jcboGender.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox9ActionPerformed(evt);
+                jcboGenderActionPerformed(evt);
             }
         });
-        jPanel7.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 180, 240, 30));
+        jPanel7.add(jcboGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 180, 240, 30));
 
         jtxtTotalScore1.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
         jtxtTotalScore1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -696,14 +701,14 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jLabel14.setText("Преподаватель курса");
         jPanel4.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, -1, -1));
 
-        jComboBox11.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Выберите предмет", "Юриспруденция", "Правовое обеспечение национальной безопасности", "Правоохранительная деятельность", "Информационная безопасность" }));
-        jComboBox11.addActionListener(new java.awt.event.ActionListener() {
+        jcboCourse.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jcboCourse.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Выберите предмет", "Юриспруденция", "Правовое обеспечение национальной безопасности", "Правоохранительная деятельность", "Информационная безопасность" }));
+        jcboCourse.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox11ActionPerformed(evt);
+                jcboCourseActionPerformed(evt);
             }
         });
-        jPanel4.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 220, 30));
+        jPanel4.add(jcboCourse, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 220, 30));
 
         jtxtTotalScore10.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
         jtxtTotalScore10.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -842,16 +847,16 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jtxtDateActionPerformed
 
-    private void jComboBox9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox9ActionPerformed
+    private void jcboGenderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcboGenderActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox9ActionPerformed
+    }//GEN-LAST:event_jcboGenderActionPerformed
 
-    private void jComboBox11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox11ActionPerformed
+    private void jcboCourseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcboCourseActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox11ActionPerformed
+    }//GEN-LAST:event_jcboCourseActionPerformed
 
     private void jtxtTotalScore12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtxtTotalScore12ActionPerformed
-14        // TODO add your handling code here:
+       // TODO add your handling code here:
     }//GEN-LAST:event_jtxtTotalScore12ActionPerformed
 
     private void jtxtTotalScore13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtxtTotalScore13ActionPerformed
@@ -885,6 +890,58 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     private void jbtnResultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnResultActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jbtnResultActionPerformed
+
+    private void jbtnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnResetActionPerformed
+         // TODO add your handling code here:
+         JTextField jtxt = null;
+         JComboBox jcbo = null; 
+         
+         
+         
+         for (Component c:jPanel7.getComponents()) 
+         {
+             if (c.getClass().toString().contains("javax.swing.JTextField")) 
+             {
+                 jtxt = (JTextField)c;
+                 jtxt.setText(null);
+             }
+         }
+         
+         for (Component c:jPanel5.getComponents()) 
+         {
+             if (c.getClass().toString().contains("javax.swing.JComboBox")) 
+             {
+                 jcbo = (JComboBox)c;
+                 jcbo.setSelectedIndex(0);
+             }
+         }
+         for (Component c:jPanel5.getComponents()) 
+         {
+             if (c.getClass().toString().contains("javax.swing.JTextField")) 
+             {
+                 jtxt = (JTextField)c;
+                 jtxt.setText(null);
+             }
+         }
+         
+         for (Component c:jPanel4.getComponents()) 
+         {
+             if (c.getClass().toString().contains("javax.swing.JTextField")) 
+             {
+                 jtxt = (JTextField)c;
+                 jtxt.setText(null);
+             }
+         }
+         // Сделаем раздельно для выбора пола, расшифровки и специальности
+    jtxtTranscript.setText(null);
+    jcboGender.setSelectedIndex(0);
+    jcboCourse.setSelectedIndex(0);     
+         
+
+         
+      
+         
+    }//GEN-LAST:event_jbtnResetActionPerformed
 
     /**
      * @param args the command line arguments
@@ -924,7 +981,6 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox10;
-    private javax.swing.JComboBox<String> jComboBox11;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
@@ -932,7 +988,6 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox6;
     private javax.swing.JComboBox<String> jComboBox7;
     private javax.swing.JComboBox<String> jComboBox8;
-    private javax.swing.JComboBox<String> jComboBox9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1019,6 +1074,8 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     private javax.swing.JButton jbtnReset;
     private javax.swing.JButton jbtnResult;
     private javax.swing.JButton jbtnTranscript;
+    private javax.swing.JComboBox<String> jcboCourse;
+    private javax.swing.JComboBox<String> jcboGender;
     private javax.swing.JTextField jtxtDate;
     private javax.swing.JTextField jtxtRanking;
     private javax.swing.JTextField jtxtTotalScore;
