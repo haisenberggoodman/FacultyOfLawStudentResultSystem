@@ -430,16 +430,17 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField2">
+                <Component class="javax.swing.JTextField" name="jtxtScore1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" value="0"/>
+                    <Property name="enabled" type="boolean" value="false"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtScore1ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -447,13 +448,14 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField3">
+                <Component class="javax.swing.JTextField" name="jtxtScore2">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" value="0"/>
+                    <Property name="enabled" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -461,13 +463,14 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField5">
+                <Component class="javax.swing.JTextField" name="jtxtScore3">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" value="0"/>
+                    <Property name="enabled" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -475,13 +478,14 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField6">
+                <Component class="javax.swing.JTextField" name="jtxtScore6">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" value="0"/>
+                    <Property name="enabled" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -489,16 +493,17 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField7">
+                <Component class="javax.swing.JTextField" name="jtxtScore5">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" value="0"/>
+                    <Property name="enabled" type="boolean" value="false"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField7ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtScore5ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -506,16 +511,17 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField8">
+                <Component class="javax.swing.JTextField" name="jtxtScore4">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" value="0"/>
+                    <Property name="enabled" type="boolean" value="false"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField8ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtScore4ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -523,16 +529,17 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField10">
+                <Component class="javax.swing.JTextField" name="jtxtScore8">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" value="0"/>
+                    <Property name="enabled" type="boolean" value="false"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField10ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtScore8ActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -540,13 +547,14 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField11">
+                <Component class="javax.swing.JTextField" name="jtxtScore7">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                     <Property name="text" type="java.lang.String" value="0"/>
+                    <Property name="enabled" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -917,7 +925,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtRanking">
+                <Component class="javax.swing.JTextField" name="jtxtTotalScore3">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -926,11 +934,11 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="150" y="430" width="240" height="30"/>
+                      <AbsoluteConstraints x="150" y="380" width="240" height="30"/>
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox1">
+                <Component class="javax.swing.JComboBox" name="jcboModule3">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="24" style="0"/>
@@ -938,7 +946,7 @@
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="5">
                         <StringItem index="0" value=" "/>
-                        <StringItem index="1" value="&#x41e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x43f;&#x440;&#x43e;&#x435;&#x43a;&#x442;&#x43d;&#x43e;&#x439; &#x434;&#x435;&#x44f;&#x442;&#x435;&#x43b;&#x44c;&#x43d;&#x43e;&#x441;&#x442;&#x438;"/>
+                        <StringItem index="1" value="&#x41e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x43f;&#x440;&#x43e;&#x435;&#x43a;&#x442;&#x43d;&#x43e;&#x439; &#x434;&#x435;&#x44f;&#x442;&#x435;&#x43b;&#x44c;&#x43d;&#x43e;&#x441;&#x442;&#x438;                  "/>
                         <StringItem index="2" value="&#x421;&#x430;&#x43c;&#x43e;&#x440;&#x430;&#x437;&#x432;&#x438;&#x442;&#x438;&#x435; &#x438; &#x438;&#x43d;&#x43a;&#x43b;&#x44e;&#x437;&#x438;&#x432;&#x43d;&#x430;&#x44f; &#x43f;&#x43e;&#x434;&#x433;&#x43e;&#x442;&#x43e;&#x432;&#x43a;&#x430; &#x43f;&#x435;&#x440;&#x441;&#x43e;&#x43d;&#x430;&#x43b;&#x430;"/>
                         <StringItem index="3" value="&#x41f;&#x440;&#x430;&#x432;&#x43e;&#x432;&#x43e;&#x435; &#x43e;&#x431;&#x435;&#x441;&#x43f;&#x435;&#x447;&#x435;&#x43d;&#x438;&#x435; &#x43d;&#x430;&#x446;&#x438;&#x43e;&#x43d;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x439; &#x431;&#x435;&#x437;&#x43e;&#x43f;&#x430;&#x441;&#x43d;&#x43e;&#x441;&#x442;&#x438;"/>
                         <StringItem index="4" value=" "/>
@@ -946,7 +954,7 @@
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcboModule3ActionPerformed"/>
                   </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -957,7 +965,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox2">
+                <Component class="javax.swing.JComboBox" name="jcboModule1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="24" style="0"/>
@@ -965,16 +973,16 @@
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="6">
                         <StringItem index="0" value=" "/>
-                        <StringItem index="1" value="&#x410;&#x434;&#x43c;&#x438;&#x43d;&#x438;&#x441;&#x442;&#x440;&#x430;&#x442;&#x438;&#x432;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;"/>
-                        <StringItem index="2" value="&#x413;&#x440;&#x430;&#x436;&#x434;&#x430;&#x43d;&#x441;&#x43a;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;"/>
-                        <StringItem index="3" value="&#x418;&#x43d;&#x43e;&#x441;&#x442;&#x440;&#x430;&#x43d;&#x43d;&#x44b;&#x439; &#x44f;&#x437;&#x44b;&#x43a; &#x432; &#x441;&#x444;&#x435;&#x440;&#x435; &#x44e;&#x440;&#x438;&#x441;&#x43f;&#x440;&#x443;&#x434;&#x435;&#x43d;&#x446;&#x438;&#x438;"/>
+                        <StringItem index="1" value="&#x410;&#x434;&#x43c;&#x438;&#x43d;&#x438;&#x441;&#x442;&#x440;&#x430;&#x442;&#x438;&#x432;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;                         "/>
+                        <StringItem index="2" value="&#x413;&#x440;&#x430;&#x436;&#x434;&#x430;&#x43d;&#x441;&#x43a;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;                              "/>
+                        <StringItem index="3" value="&#x418;&#x43d;&#x43e;&#x441;&#x442;&#x440;&#x430;&#x43d;&#x43d;&#x44b;&#x439; &#x44f;&#x437;&#x44b;&#x43a; &#x432; &#x441;&#x444;&#x435;&#x440;&#x435; &#x44e;&#x440;&#x438;&#x441;&#x43f;&#x440;&#x443;&#x434;&#x435;&#x43d;&#x446;&#x438;&#x438;         "/>
                         <StringItem index="4" value=" "/>
                         <StringItem index="5" value=" "/>
                       </StringArray>
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox2ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcboModule1ActionPerformed"/>
                   </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -985,7 +993,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox3">
+                <Component class="javax.swing.JComboBox" name="jcboModule2">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="24" style="0"/>
@@ -993,15 +1001,15 @@
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="5">
                         <StringItem index="0" value=" "/>
-                        <StringItem index="1" value="&#x41e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x438;&#x43d;&#x444;&#x43e;&#x440;&#x43c;&#x430;&#x446;&#x438;&#x43e;&#x43d;&#x43d;&#x43e;&#x439; &#x431;&#x435;&#x437;&#x43e;&#x43f;&#x430;&#x441;&#x43d;&#x43e;&#x441;&#x442;&#x438;"/>
-                        <StringItem index="2" value="&#x41f;&#x440;&#x430;&#x432;&#x43e;&#x432;&#x44b;&#x435; &#x43e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x441;&#x43e;&#x446;&#x438;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x433;&#x43e; &#x433;&#x43e;&#x441;&#x443;&#x434;&#x430;&#x440;&#x441;&#x442;&#x432;&#x430;"/>
-                        <StringItem index="3" value="&#x422;&#x440;&#x443;&#x434;&#x43e;&#x432;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;"/>
+                        <StringItem index="1" value="&#x41e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x438;&#x43d;&#x444;&#x43e;&#x440;&#x43c;&#x430;&#x446;&#x438;&#x43e;&#x43d;&#x43d;&#x43e;&#x439; &#x431;&#x435;&#x437;&#x43e;&#x43f;&#x430;&#x441;&#x43d;&#x43e;&#x441;&#x442;&#x438;             "/>
+                        <StringItem index="2" value="&#x41f;&#x440;&#x430;&#x432;&#x43e;&#x432;&#x44b;&#x435; &#x43e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x441;&#x43e;&#x446;&#x438;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x433;&#x43e; &#x433;&#x43e;&#x441;&#x443;&#x434;&#x430;&#x440;&#x441;&#x442;&#x432;&#x430;        "/>
+                        <StringItem index="3" value="&#x422;&#x440;&#x443;&#x434;&#x43e;&#x432;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;                                 "/>
                         <StringItem index="4" value=" "/>
                       </StringArray>
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox3ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcboModule2ActionPerformed"/>
                   </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -1012,7 +1020,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox4">
+                <Component class="javax.swing.JComboBox" name="jcboModule6">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="24" style="0"/>
@@ -1020,15 +1028,16 @@
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="5">
                         <StringItem index="0" value=" "/>
-                        <StringItem index="1" value="&#x41f;&#x43e;&#x43b;&#x438;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x430; &#x43e;&#x431;&#x449;&#x435;&#x441;&#x442;&#x432;&#x430;"/>
-                        <StringItem index="2" value="&#x423;&#x433;&#x43e;&#x43b;&#x43e;&#x432;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;"/>
-                        <StringItem index="3" value="&#x41e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x443;&#x43f;&#x440;&#x430;&#x432;&#x43b;&#x435;&#x43d;&#x438;&#x44f; &#x43f;&#x440;&#x43e;&#x435;&#x43a;&#x442;&#x430;&#x43c;&#x438;"/>
+                        <StringItem index="1" value="&#x41f;&#x43e;&#x43b;&#x438;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x430; &#x43e;&#x431;&#x449;&#x435;&#x441;&#x442;&#x432;&#x430;                  "/>
+                        <StringItem index="2" value="&#x423;&#x433;&#x43e;&#x43b;&#x43e;&#x432;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;                                "/>
+                        <StringItem index="3" value="&#x41e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x443;&#x43f;&#x440;&#x430;&#x432;&#x43b;&#x435;&#x43d;&#x438;&#x44f; &#x43f;&#x440;&#x43e;&#x435;&#x43a;&#x442;&#x430;&#x43c;&#x438;                    "/>
                         <StringItem index="4" value=" "/>
                       </StringArray>
                     </Property>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox4ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcboModule6ActionPerformed"/>
                   </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -1039,23 +1048,23 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox5">
+                <Component class="javax.swing.JComboBox" name="jcboModule5">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="24" style="0"/>
                     </Property>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="5">
-                        <StringItem index="0" value="  "/>
-                        <StringItem index="1" value="&#x424;&#x438;&#x437;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x43a;&#x443;&#x43b;&#x44c;&#x442;&#x443;&#x440;&#x430; &#x438; &#x441;&#x43f;&#x43e;&#x440;&#x442;"/>
-                        <StringItem index="2" value="&#x41a;&#x43e;&#x43d;&#x441;&#x442;&#x438;&#x442;&#x443;&#x446;&#x438;&#x43e;&#x43d;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;"/>
-                        <StringItem index="3" value="&#x410;&#x434;&#x43c;&#x438;&#x43d;&#x438;&#x441;&#x442;&#x440;&#x430;&#x442;&#x438;&#x432;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;"/>
+                        <StringItem index="0" value=" "/>
+                        <StringItem index="1" value="&#x424;&#x438;&#x437;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x43a;&#x443;&#x43b;&#x44c;&#x442;&#x443;&#x440;&#x430; &#x438; &#x441;&#x43f;&#x43e;&#x440;&#x442;                    "/>
+                        <StringItem index="2" value="&#x41a;&#x43e;&#x43d;&#x441;&#x442;&#x438;&#x442;&#x443;&#x446;&#x438;&#x43e;&#x43d;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;                          "/>
+                        <StringItem index="3" value="&#x410;&#x434;&#x43c;&#x438;&#x43d;&#x438;&#x441;&#x442;&#x440;&#x430;&#x442;&#x438;&#x432;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;                         "/>
                         <StringItem index="4" value=" "/>
                       </StringArray>
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox5ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcboModule5ActionPerformed"/>
                   </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -1066,23 +1075,23 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox6">
+                <Component class="javax.swing.JComboBox" name="jcboModule4">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="24" style="0"/>
                     </Property>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="5">
-                        <StringItem index="0" value="  "/>
-                        <StringItem index="1" value="&#x413;&#x440;&#x430;&#x436;&#x434;&#x430;&#x43d;&#x441;&#x43a;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;"/>
-                        <StringItem index="2" value="&#x41c;&#x443;&#x43d;&#x438;&#x446;&#x438;&#x43f;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;"/>
-                        <StringItem index="3" value="&#x41f;&#x440;&#x430;&#x432;&#x43e;&#x432;&#x44b;&#x435; &#x43e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x430;&#x43d;&#x442;&#x438;&#x43a;&#x43e;&#x440;&#x440;&#x443;&#x43f;&#x446;&#x438;&#x43e;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x43f;&#x43e;&#x432;&#x435;&#x434;&#x435;&#x43d;&#x438;&#x44f;"/>
+                        <StringItem index="0" value=" "/>
+                        <StringItem index="1" value="&#x413;&#x440;&#x430;&#x436;&#x434;&#x430;&#x43d;&#x441;&#x43a;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;                              "/>
+                        <StringItem index="2" value="&#x41c;&#x443;&#x43d;&#x438;&#x446;&#x438;&#x43f;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;&#x41c;&#x443;&#x43d;&#x438;&#x446;&#x438;&#x43f;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;                            "/>
+                        <StringItem index="3" value="&#x41f;&#x440;&#x430;&#x432;&#x43e;&#x432;&#x44b;&#x435; &#x43e;&#x441;&#x43d;&#x43e;&#x432;&#x44b; &#x430;&#x43d;&#x442;&#x438;&#x43a;&#x43e;&#x440;&#x440;&#x443;&#x43f;&#x446;&#x438;&#x43e;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x43f;&#x43e;&#x432;&#x435;&#x434;&#x435;&#x43d;&#x438;&#x44f;   "/>
                         <StringItem index="4" value=" "/>
                       </StringArray>
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox6ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcboModule4ActionPerformed"/>
                   </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -1119,7 +1128,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox8">
+                <Component class="javax.swing.JComboBox" name="jcboModule7">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="24" style="0"/>
@@ -1127,15 +1136,15 @@
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="5">
                         <StringItem index="0" value=" "/>
-                        <StringItem index="1" value="&#x418;&#x43d;&#x43e;&#x441;&#x442;&#x440;&#x430;&#x43d;&#x43d;&#x44b;&#x439; &#x44f;&#x437;&#x44b;&#x43a;"/>
-                        <StringItem index="2" value="&#x424;&#x438;&#x43b;&#x43e;&#x441;&#x43e;&#x444;&#x438;&#x44f;"/>
-                        <StringItem index="3" value="&#x423;&#x434;&#x43c;&#x443;&#x440;&#x442;&#x441;&#x43a;&#x438;&#x439; &#x44f;&#x437;&#x44b;&#x43a; &#x432; &#x43c;&#x435;&#x436;&#x43a;&#x443;&#x43b;&#x44c;&#x442;&#x443;&#x440;&#x43d;&#x43e;&#x439; &#x43a;&#x43e;&#x43c;&#x43c;&#x443;&#x43d;&#x438;&#x43a;&#x430;&#x446;&#x438;&#x438;"/>
+                        <StringItem index="1" value="&#x418;&#x43d;&#x43e;&#x441;&#x442;&#x440;&#x430;&#x43d;&#x43d;&#x44b;&#x439; &#x44f;&#x437;&#x44b;&#x43a;                               "/>
+                        <StringItem index="2" value="&#x424;&#x438;&#x43b;&#x43e;&#x441;&#x43e;&#x444;&#x438;&#x44f;                                      "/>
+                        <StringItem index="3" value="&#x423;&#x434;&#x43c;&#x443;&#x440;&#x442;&#x441;&#x43a;&#x438;&#x439; &#x44f;&#x437;&#x44b;&#x43a; &#x432; &#x43c;&#x435;&#x436;&#x43a;&#x443;&#x43b;&#x44c;&#x442;&#x443;&#x440;&#x43d;&#x43e;&#x439; &#x43a;&#x43e;&#x43c;&#x43c;&#x443;&#x43d;&#x438;&#x43a;&#x430;&#x446;&#x438;&#x438;   "/>
                         <StringItem index="4" value=" "/>
                       </StringArray>
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox8ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcboModule7ActionPerformed"/>
                   </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -1146,7 +1155,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox10">
+                <Component class="javax.swing.JComboBox" name="jcboModule8">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="24" style="0"/>
@@ -1154,14 +1163,14 @@
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="4">
                         <StringItem index="0" value=" "/>
-                        <StringItem index="1" value="&#x41a;&#x43e;&#x43d;&#x441;&#x442;&#x438;&#x442;&#x443;&#x446;&#x438;&#x43e;&#x43d;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;"/>
-                        <StringItem index="2" value="&#x410;&#x434;&#x43c;&#x438;&#x43d;&#x438;&#x441;&#x442;&#x440;&#x430;&#x442;&#x438;&#x432;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;"/>
+                        <StringItem index="1" value="&#x41a;&#x43e;&#x43d;&#x441;&#x442;&#x438;&#x442;&#x443;&#x446;&#x438;&#x43e;&#x43d;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;                          "/>
+                        <StringItem index="2" value="&#x410;&#x434;&#x43c;&#x438;&#x43d;&#x438;&#x441;&#x442;&#x440;&#x430;&#x442;&#x438;&#x432;&#x43d;&#x43e;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x43e;                         "/>
                         <StringItem index="3" value="&#x421;&#x430;&#x43c;&#x43e;&#x440;&#x430;&#x437;&#x432;&#x438;&#x442;&#x438;&#x435; &#x438; &#x438;&#x43d;&#x43a;&#x43b;&#x44e;&#x437;&#x438;&#x432;&#x43d;&#x430;&#x44f; &#x43f;&#x43e;&#x434;&#x433;&#x43e;&#x442;&#x43e;&#x432;&#x43a;&#x430; &#x43f;&#x435;&#x440;&#x441;&#x43e;&#x43d;&#x430;&#x43b;&#x430;"/>
                       </StringArray>
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox10ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcboModule8ActionPerformed"/>
                   </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -1172,16 +1181,16 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore3">
+                <Component class="javax.swing.JTextField" name="jtxtRanking">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Segoe UI" size="22" style="0"/>
+                      <Font name="Segoe UI" size="14" style="0"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="150" y="380" width="240" height="30"/>
+                      <AbsoluteConstraints x="150" y="430" width="240" height="30"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -1227,45 +1236,6 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JLabel" name="jLabel23">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Segoe UI" size="24" style="1"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel1"/>
-                  </Properties>
-                  <Constraints>
-                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="10" y="20" width="-1" height="-1"/>
-                    </Constraint>
-                  </Constraints>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel24">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Segoe UI" size="24" style="1"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel1"/>
-                  </Properties>
-                  <Constraints>
-                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="10" y="50" width="-1" height="-1"/>
-                    </Constraint>
-                  </Constraints>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel25">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Segoe UI" size="24" style="1"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="jLabel1"/>
-                  </Properties>
-                  <Constraints>
-                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="10" y="80" width="-1" height="-1"/>
-                    </Constraint>
-                  </Constraints>
-                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="jPanel7">
@@ -1297,7 +1267,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="20" y="60" width="-1" height="-1"/>
+                      <AbsoluteConstraints x="40" y="100" width="-1" height="-1"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -1336,7 +1306,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="20" y="100" width="-1" height="-1"/>
+                      <AbsoluteConstraints x="20" y="60" width="-1" height="-1"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -1456,7 +1426,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore4">
+                <Component class="javax.swing.JTextField" name="jtxtStudentID">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1469,7 +1439,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore5">
+                <Component class="javax.swing.JTextField" name="jtxtSurname">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1482,7 +1452,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore7">
+                <Component class="javax.swing.JTextField" name="jtxtFirstname">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1495,7 +1465,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore6">
+                <Component class="javax.swing.JTextField" name="jtxtOtchestvo">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1858,7 +1828,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="48" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x430; &#x443;&#x447;&#x435;&#x442;&#x430; &#x440;&#x435;&#x439;&#x442;&#x438;&#x43d;&#x433;&#x430; &#x441;&#x442;&#x443;&#x434;&#x435;&#x43d;&#x442;&#x43e;&#x432;"/>
+                    <Property name="text" type="java.lang.String" value="&#x421;&#x438;&#x441;&#x442;&#x435;&#x43c;&#x430; &#x443;&#x447;&#x435;&#x442;&#x430; &#x443;&#x441;&#x43f;&#x435;&#x432;&#x430;&#x435;&#x43c;&#x43e;&#x441;&#x442;&#x438; &#x441;&#x442;&#x443;&#x434;&#x435;&#x43d;&#x442;&#x43e;&#x432;"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">

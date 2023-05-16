@@ -73,14 +73,14 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField5 = new javax.swing.JTextField();
-        jTextField6 = new javax.swing.JTextField();
-        jTextField7 = new javax.swing.JTextField();
-        jTextField8 = new javax.swing.JTextField();
-        jTextField10 = new javax.swing.JTextField();
-        jTextField11 = new javax.swing.JTextField();
+        jtxtScore1 = new javax.swing.JTextField();
+        jtxtScore2 = new javax.swing.JTextField();
+        jtxtScore3 = new javax.swing.JTextField();
+        jtxtScore6 = new javax.swing.JTextField();
+        jtxtScore5 = new javax.swing.JTextField();
+        jtxtScore4 = new javax.swing.JTextField();
+        jtxtScore8 = new javax.swing.JTextField();
+        jtxtScore7 = new javax.swing.JTextField();
         jPanel8 = new javax.swing.JPanel();
         jLabel32 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
@@ -108,23 +108,20 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jTextField21 = new javax.swing.JTextField();
         jTextField22 = new javax.swing.JTextField();
         jtxtDate = new javax.swing.JTextField();
-        jtxtRanking = new javax.swing.JTextField();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jComboBox3 = new javax.swing.JComboBox<>();
-        jComboBox4 = new javax.swing.JComboBox<>();
-        jComboBox5 = new javax.swing.JComboBox<>();
-        jComboBox6 = new javax.swing.JComboBox<>();
-        jComboBox7 = new javax.swing.JComboBox<>();
-        jComboBox8 = new javax.swing.JComboBox<>();
-        jComboBox10 = new javax.swing.JComboBox<>();
         jtxtTotalScore3 = new javax.swing.JTextField();
+        jcboModule3 = new javax.swing.JComboBox<>();
+        jcboModule1 = new javax.swing.JComboBox<>();
+        jcboModule2 = new javax.swing.JComboBox<>();
+        jcboModule6 = new javax.swing.JComboBox<>();
+        jcboModule5 = new javax.swing.JComboBox<>();
+        jcboModule4 = new javax.swing.JComboBox<>();
+        jComboBox7 = new javax.swing.JComboBox<>();
+        jcboModule7 = new javax.swing.JComboBox<>();
+        jcboModule8 = new javax.swing.JComboBox<>();
+        jtxtRanking = new javax.swing.JTextField();
         jPanel6 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jtxtTranscript = new javax.swing.JTextArea();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -138,10 +135,10 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jtxtTotalScore1 = new javax.swing.JTextField();
         jtxtTotalScore2 = new javax.swing.JTextField();
         jtxtTotalScore = new javax.swing.JTextField();
-        jtxtTotalScore4 = new javax.swing.JTextField();
-        jtxtTotalScore5 = new javax.swing.JTextField();
-        jtxtTotalScore7 = new javax.swing.JTextField();
-        jtxtTotalScore6 = new javax.swing.JTextField();
+        jtxtStudentID = new javax.swing.JTextField();
+        jtxtSurname = new javax.swing.JTextField();
+        jtxtFirstname = new javax.swing.JTextField();
+        jtxtOtchestvo = new javax.swing.JTextField();
         jtxtTotalScore8 = new javax.swing.JTextField();
         jtxtTotalScore9 = new javax.swing.JTextField();
         jPanel4 = new javax.swing.JPanel();
@@ -304,65 +301,73 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jLabel31.setText("Всего баллов");
         jPanel5.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, 130, 30));
 
-        jTextField2.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField2.setText("0");
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        jtxtScore1.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtScore1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jtxtScore1.setText("0");
+        jtxtScore1.setEnabled(false);
+        jtxtScore1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+                jtxtScore1ActionPerformed(evt);
             }
         });
-        jPanel5.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 60, 70, 30));
+        jPanel5.add(jtxtScore1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 60, 70, 30));
 
-        jTextField3.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField3.setText("0");
-        jPanel5.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 100, 70, 30));
+        jtxtScore2.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtScore2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jtxtScore2.setText("0");
+        jtxtScore2.setEnabled(false);
+        jPanel5.add(jtxtScore2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 100, 70, 30));
 
-        jTextField5.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField5.setText("0");
-        jPanel5.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 140, 70, 30));
+        jtxtScore3.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtScore3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jtxtScore3.setText("0");
+        jtxtScore3.setEnabled(false);
+        jPanel5.add(jtxtScore3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 140, 70, 30));
 
-        jTextField6.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jTextField6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField6.setText("0");
-        jPanel5.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 260, 70, 30));
+        jtxtScore6.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtScore6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jtxtScore6.setText("0");
+        jtxtScore6.setEnabled(false);
+        jPanel5.add(jtxtScore6, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 260, 70, 30));
 
-        jTextField7.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField7.setText("0");
-        jTextField7.addActionListener(new java.awt.event.ActionListener() {
+        jtxtScore5.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtScore5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jtxtScore5.setText("0");
+        jtxtScore5.setEnabled(false);
+        jtxtScore5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField7ActionPerformed(evt);
+                jtxtScore5ActionPerformed(evt);
             }
         });
-        jPanel5.add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 220, 70, 30));
+        jPanel5.add(jtxtScore5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 220, 70, 30));
 
-        jTextField8.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jTextField8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField8.setText("0");
-        jTextField8.addActionListener(new java.awt.event.ActionListener() {
+        jtxtScore4.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtScore4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jtxtScore4.setText("0");
+        jtxtScore4.setEnabled(false);
+        jtxtScore4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField8ActionPerformed(evt);
+                jtxtScore4ActionPerformed(evt);
             }
         });
-        jPanel5.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 70, 30));
+        jPanel5.add(jtxtScore4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 70, 30));
 
-        jTextField10.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jTextField10.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField10.setText("0");
-        jTextField10.addActionListener(new java.awt.event.ActionListener() {
+        jtxtScore8.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtScore8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jtxtScore8.setText("0");
+        jtxtScore8.setEnabled(false);
+        jtxtScore8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField10ActionPerformed(evt);
+                jtxtScore8ActionPerformed(evt);
             }
         });
-        jPanel5.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 340, 70, 30));
+        jPanel5.add(jtxtScore8, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 340, 70, 30));
 
-        jTextField11.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jTextField11.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField11.setText("0");
-        jPanel5.add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 300, 70, 30));
+        jtxtScore7.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtScore7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jtxtScore7.setText("0");
+        jtxtScore7.setEnabled(false);
+        jPanel5.add(jtxtScore7, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 300, 70, 30));
 
         jPanel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(100, 194, 203), 8));
         jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -478,63 +483,64 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         });
         jPanel5.add(jtxtDate, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 480, 240, 30));
 
-        jtxtRanking.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jtxtRanking.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jPanel5.add(jtxtRanking, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 430, 240, 30));
+        jtxtTotalScore3.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtTotalScore3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel5.add(jtxtTotalScore3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 380, 240, 30));
 
-        jComboBox1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Основы проектной деятельности", "Саморазвитие и инклюзивная подготовка персонала", "Правовое обеспечение национальной безопасности", " " }));
-        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+        jcboModule3.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jcboModule3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Основы проектной деятельности                  ", "Саморазвитие и инклюзивная подготовка персонала", "Правовое обеспечение национальной безопасности", " " }));
+        jcboModule3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox1ActionPerformed(evt);
+                jcboModule3ActionPerformed(evt);
             }
         });
-        jPanel5.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 250, 30));
+        jPanel5.add(jcboModule3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 250, 30));
 
-        jComboBox2.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право", "Гражданское право", "Иностранный язык в сфере юриспруденции", " ", " " }));
-        jComboBox2.addActionListener(new java.awt.event.ActionListener() {
+        jcboModule1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jcboModule1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право                         ", "Гражданское право                              ", "Иностранный язык в сфере юриспруденции         ", " ", " " }));
+        jcboModule1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox2ActionPerformed(evt);
+                jcboModule1ActionPerformed(evt);
             }
         });
-        jPanel5.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 250, 30));
+        jPanel5.add(jcboModule1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 250, 30));
 
-        jComboBox3.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Основы информационной безопасности", "Правовые основы социального государства", "Трудовое право", " " }));
-        jComboBox3.addActionListener(new java.awt.event.ActionListener() {
+        jcboModule2.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jcboModule2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Основы информационной безопасности             ", "Правовые основы социального государства        ", "Трудовое право                                 ", " " }));
+        jcboModule2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox3ActionPerformed(evt);
+                jcboModule2ActionPerformed(evt);
             }
         });
-        jPanel5.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 250, 30));
+        jPanel5.add(jcboModule2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 250, 30));
 
-        jComboBox4.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Политическая система общества", "Уголовное право", "Основы управления проектами", " " }));
-        jComboBox4.addActionListener(new java.awt.event.ActionListener() {
+        jcboModule6.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jcboModule6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Политическая система общества                  ", "Уголовное право                                ", "Основы управления проектами                    ", " " }));
+        jcboModule6.setToolTipText("");
+        jcboModule6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox4ActionPerformed(evt);
+                jcboModule6ActionPerformed(evt);
             }
         });
-        jPanel5.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 260, 250, 30));
+        jPanel5.add(jcboModule6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 260, 250, 30));
 
-        jComboBox5.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "  ", "Физическая культура и спорт", "Конституционное право", "Административное право", " " }));
-        jComboBox5.addActionListener(new java.awt.event.ActionListener() {
+        jcboModule5.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jcboModule5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Физическая культура и спорт                    ", "Конституционное право                          ", "Административное право                         ", " " }));
+        jcboModule5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox5ActionPerformed(evt);
+                jcboModule5ActionPerformed(evt);
             }
         });
-        jPanel5.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 250, 30));
+        jPanel5.add(jcboModule5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 250, 30));
 
-        jComboBox6.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "  ", "Гражданское право", "Муниципальное право", "Правовые основы антикоррупционного поведения", " " }));
-        jComboBox6.addActionListener(new java.awt.event.ActionListener() {
+        jcboModule4.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jcboModule4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Гражданское право                              ", "Муниципальное правоМуниципальное право                            ", "Правовые основы антикоррупционного поведения   ", " " }));
+        jcboModule4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox6ActionPerformed(evt);
+                jcboModule4ActionPerformed(evt);
             }
         });
-        jPanel5.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 180, 250, 30));
+        jPanel5.add(jcboModule4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 180, 250, 30));
 
         jComboBox7.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -545,27 +551,27 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         });
         jPanel5.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 180, 190, 30));
 
-        jComboBox8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Иностранный язык", "Философия", "Удмуртский язык в межкультурной коммуникации", " " }));
-        jComboBox8.addActionListener(new java.awt.event.ActionListener() {
+        jcboModule7.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jcboModule7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Иностранный язык                               ", "Философия                                      ", "Удмуртский язык в межкультурной коммуникации   ", " " }));
+        jcboModule7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox8ActionPerformed(evt);
+                jcboModule7ActionPerformed(evt);
             }
         });
-        jPanel5.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 300, 250, 30));
+        jPanel5.add(jcboModule7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 300, 250, 30));
 
-        jComboBox10.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Конституционное право", "Административное право", "Саморазвитие и инклюзивная подготовка персонала" }));
-        jComboBox10.addActionListener(new java.awt.event.ActionListener() {
+        jcboModule8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jcboModule8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Конституционное право                          ", "Административное право                         ", "Саморазвитие и инклюзивная подготовка персонала" }));
+        jcboModule8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox10ActionPerformed(evt);
+                jcboModule8ActionPerformed(evt);
             }
         });
-        jPanel5.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 340, 250, 30));
+        jPanel5.add(jcboModule8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 340, 250, 30));
 
-        jtxtTotalScore3.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jtxtTotalScore3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jPanel5.add(jtxtTotalScore3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 380, 240, 30));
+        jtxtRanking.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jtxtRanking.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel5.add(jtxtRanking, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 430, 240, 30));
 
         jPanel1.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 400, 540));
 
@@ -578,18 +584,6 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
 
         jPanel6.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 470, 520));
 
-        jLabel23.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel23.setText("jLabel1");
-        jPanel6.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
-
-        jLabel24.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel24.setText("jLabel1");
-        jPanel6.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
-
-        jLabel25.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel25.setText("jLabel1");
-        jPanel6.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, -1, -1));
-
         jPanel1.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 10, 490, 540));
 
         jPanel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(100, 194, 203), 8));
@@ -597,7 +591,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel1.setText("Имя");
-        jPanel7.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
+        jPanel7.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel2.setText("ИД Студента");
@@ -609,7 +603,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel4.setText("Фамилия");
-        jPanel7.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
+        jPanel7.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel5.setText("Д.Р.");
@@ -648,21 +642,21 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jtxtTotalScore.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jPanel7.add(jtxtTotalScore, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 300, 240, 30));
 
-        jtxtTotalScore4.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jtxtTotalScore4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jPanel7.add(jtxtTotalScore4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 20, 190, 30));
+        jtxtStudentID.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtStudentID.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel7.add(jtxtStudentID, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 20, 190, 30));
 
-        jtxtTotalScore5.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jtxtTotalScore5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jPanel7.add(jtxtTotalScore5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 60, 240, 30));
+        jtxtSurname.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtSurname.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel7.add(jtxtSurname, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 60, 240, 30));
 
-        jtxtTotalScore7.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jtxtTotalScore7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jPanel7.add(jtxtTotalScore7, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 100, 240, 30));
+        jtxtFirstname.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtFirstname.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel7.add(jtxtFirstname, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 100, 240, 30));
 
-        jtxtTotalScore6.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
-        jtxtTotalScore6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jPanel7.add(jtxtTotalScore6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 140, 240, 30));
+        jtxtOtchestvo.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtOtchestvo.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel7.add(jtxtOtchestvo, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 140, 240, 30));
 
         jtxtTotalScore8.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
         jtxtTotalScore8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -774,7 +768,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel47.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
-        jLabel47.setText("Система учета рейтинга студентов");
+        jLabel47.setText("Система учета успеваемости студентов");
         jPanel10.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, -1, -1));
 
         jPanel2.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 1300, 100));
@@ -789,59 +783,89 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
 
     private void jbtnTranscriptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnTranscriptActionPerformed
         // TODO add your handling code here:
+        
+        
+              
+        jtxtTranscript.append("\t\t Расшифровка \n"
+        + "=====================================================\n"
+        + "Номер регистрации студента:\t\t " + jtxtStudentID.getText() + "\n\n"
+        + "Имя:     " + jtxtSurname.getText() + "\t     " + jtxtFirstname.getText() + "\t" + jtxtOtchestvo.getText() +  "\n\n"
+        + "1: " + jcboModule1.getSelectedItem()+ jtxtScore1.getText() + "\n\n"  
+        + "2: " + jcboModule2.getSelectedItem()+ jtxtScore2.getText() + "\n\n" 
+        + "3: " + jcboModule3.getSelectedItem()+ jtxtScore3.getText() + "\n\n" 
+        + "4: " + jcboModule4.getSelectedItem()+ jtxtScore4.getText() + "\n\n"
+        + "5: " + jcboModule5.getSelectedItem()+ jtxtScore5.getText() + "\n\n"        
+        + "6: " + jcboModule6.getSelectedItem()+ jtxtScore6.getText() + "\n\n" 
+        + "7: " + jcboModule7.getSelectedItem()+ jtxtScore7.getText() + "\n\n" 
+        + "8: " + jcboModule8.getSelectedItem()+ jtxtScore8.getText() + "\n\n"
+        + "=====================================================\n"
+        + "Всего баллов: \t\t"            + jtxtTotalScore3.getText() + "\n"
+        + "Рейтинг: \t\t"            + jtxtRanking.getText() + "\n"        
+        + "Дата: \t\t"            + jtxtDate.getText() + "\n"        
+                
+        );
+        
+        
+        String stringOne = (String) jcboModule1.getSelectedItem();
+        int limit1 = stringOne.length();
+        
+        while (limit1 < 60) {
+            stringOne = stringOne + " ";
+        }
+        
     }//GEN-LAST:event_jbtnTranscriptActionPerformed
 
-    private void jTextField10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField10ActionPerformed
+    private void jtxtScore8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtxtScore8ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField10ActionPerformed
+    }//GEN-LAST:event_jtxtScore8ActionPerformed
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void jtxtScore1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtxtScore1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }//GEN-LAST:event_jtxtScore1ActionPerformed
 
-    private void jTextField8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField8ActionPerformed
+    private void jtxtScore4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtxtScore4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField8ActionPerformed
+    }//GEN-LAST:event_jtxtScore4ActionPerformed
 
-    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
+    private void jtxtScore5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtxtScore5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField7ActionPerformed
+    }//GEN-LAST:event_jtxtScore5ActionPerformed
 
-    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+    private void jcboModule3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcboModule3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox1ActionPerformed
+    }//GEN-LAST:event_jcboModule3ActionPerformed
 
-    private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
+    private void jcboModule1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcboModule1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox2ActionPerformed
+    }//GEN-LAST:event_jcboModule1ActionPerformed
 
-    private void jComboBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox3ActionPerformed
+    private void jcboModule2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcboModule2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox3ActionPerformed
+    }//GEN-LAST:event_jcboModule2ActionPerformed
 
-    private void jComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox4ActionPerformed
+    private void jcboModule6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcboModule6ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox4ActionPerformed
+    }//GEN-LAST:event_jcboModule6ActionPerformed
 
-    private void jComboBox5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox5ActionPerformed
+    private void jcboModule5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcboModule5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox5ActionPerformed
+    }//GEN-LAST:event_jcboModule5ActionPerformed
 
-    private void jComboBox6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox6ActionPerformed
+    private void jcboModule4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcboModule4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox6ActionPerformed
+    }//GEN-LAST:event_jcboModule4ActionPerformed
 
     private void jComboBox7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox7ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox7ActionPerformed
 
-    private void jComboBox8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox8ActionPerformed
+    private void jcboModule7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcboModule7ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox8ActionPerformed
+    }//GEN-LAST:event_jcboModule7ActionPerformed
 
-    private void jComboBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox10ActionPerformed
+    private void jcboModule8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcboModule8ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox10ActionPerformed
+    }//GEN-LAST:event_jcboModule8ActionPerformed
 
     private void jtxtDateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtxtDateActionPerformed
         // TODO add your handling code here:
@@ -889,6 +913,89 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
 
     private void jbtnResultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnResultActionPerformed
         // TODO add your handling code here:
+        int[] score = new int[9];
+        
+        score[0] = Integer.parseInt(jtxtScore1.getText());
+        score[1] = Integer.parseInt(jtxtScore2.getText());
+        score[2] = Integer.parseInt(jtxtScore3.getText());
+        score[3] = Integer.parseInt(jtxtScore4.getText());
+        score[4] = Integer.parseInt(jtxtScore5.getText());
+        score[5] = Integer.parseInt(jtxtScore6.getText());
+        score[6] = Integer.parseInt(jtxtScore7.getText());
+        score[7] = Integer.parseInt(jtxtScore8.getText());
+        
+        score[8] = score[0] + score[1] + score[2] + score[3] + score[4] + score[5] + score[6] + score[7]; 
+        jtxtTotalScore3.setText(Integer.toString(score[8]));
+        
+        if ( score[8] >= 700) 
+        {
+            jtxtRanking.setText("Высокая успеваемость");
+        }
+        else if  (score[8] >= 600) 
+        {
+            jtxtRanking.setText("Выше среднего");
+        }
+        else if  (score[8] >= 500) 
+        {
+            jtxtRanking.setText("Хорошая успеваемость");
+        }
+        else if  (score[8] >= 400) 
+        {
+            jtxtRanking.setText("Достаточная успеваемость");
+        }
+        else if  (score[8] >= 300) 
+        {
+            jtxtRanking.setText("Удовлетворительно");
+        }
+        else if  (score[8] <= 299) 
+        {
+            jtxtRanking.setText("Неудовлетворительно");
+        }
+        
+        Calendar ToDay = Calendar.getInstance();
+        ToDay.getTime();
+        SimpleDateFormat Tdate = new SimpleDateFormat("dd-MMM-yyyy");
+        jtxtDate.setText(Tdate.format(ToDay.getTime()));
+        
+        if  (score[0] > 100) 
+        {
+            jtxtScore1.setText("0");
+        }
+        
+        if  (score[1] > 100) 
+        {
+            jtxtScore2.setText("0");
+        }
+        
+        if  (score[2] > 100) 
+        {
+            jtxtScore3.setText("0");
+        }
+        
+        if  (score[3] > 100) 
+        {
+            jtxtScore4.setText("0");
+        }
+        
+        if  (score[4] > 100) 
+        {
+            jtxtScore5.setText("0");
+        }
+        
+        if  (score[5] > 100) 
+        {
+            jtxtScore6.setText("0");
+        }
+        
+        if  (score[6] > 100) 
+        {
+            jtxtScore7.setText("0");
+        }
+        
+        if  (score[7] > 100) 
+        {
+            jtxtScore8.setText("0");
+        }
     }//GEN-LAST:event_jbtnResultActionPerformed
 
     private void jbtnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnResetActionPerformed
@@ -932,11 +1039,11 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
                  jtxt.setText(null);
              }
          }
-         // Сделаем раздельно для выбора пола, расшифровки и специальности
+         // Сделаем раздельно для выбора пола, расшифровки  и предмета
     jtxtTranscript.setText(null);
     jcboGender.setSelectedIndex(0);
     jcboCourse.setSelectedIndex(0);     
-         
+        
 
          
       
@@ -979,15 +1086,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox10;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JComboBox<String> jComboBox5;
-    private javax.swing.JComboBox<String> jComboBox6;
     private javax.swing.JComboBox<String> jComboBox7;
-    private javax.swing.JComboBox<String> jComboBox8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1003,9 +1102,6 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
@@ -1049,8 +1145,6 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
-    private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
     private javax.swing.JTextField jTextField13;
     private javax.swing.JTextField jTextField14;
@@ -1059,15 +1153,9 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField17;
     private javax.swing.JTextField jTextField18;
     private javax.swing.JTextField jTextField19;
-    private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField20;
     private javax.swing.JTextField jTextField21;
     private javax.swing.JTextField jTextField22;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField6;
-    private javax.swing.JTextField jTextField7;
-    private javax.swing.JTextField jTextField8;
     private javax.swing.JButton jbtnAdd;
     private javax.swing.JButton jbtnExit;
     private javax.swing.JButton jbtnPrint;
@@ -1076,8 +1164,28 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     private javax.swing.JButton jbtnTranscript;
     private javax.swing.JComboBox<String> jcboCourse;
     private javax.swing.JComboBox<String> jcboGender;
+    private javax.swing.JComboBox<String> jcboModule1;
+    private javax.swing.JComboBox<String> jcboModule2;
+    private javax.swing.JComboBox<String> jcboModule3;
+    private javax.swing.JComboBox<String> jcboModule4;
+    private javax.swing.JComboBox<String> jcboModule5;
+    private javax.swing.JComboBox<String> jcboModule6;
+    private javax.swing.JComboBox<String> jcboModule7;
+    private javax.swing.JComboBox<String> jcboModule8;
     private javax.swing.JTextField jtxtDate;
+    private javax.swing.JTextField jtxtFirstname;
+    private javax.swing.JTextField jtxtOtchestvo;
     private javax.swing.JTextField jtxtRanking;
+    private javax.swing.JTextField jtxtScore1;
+    private javax.swing.JTextField jtxtScore2;
+    private javax.swing.JTextField jtxtScore3;
+    private javax.swing.JTextField jtxtScore4;
+    private javax.swing.JTextField jtxtScore5;
+    private javax.swing.JTextField jtxtScore6;
+    private javax.swing.JTextField jtxtScore7;
+    private javax.swing.JTextField jtxtScore8;
+    private javax.swing.JTextField jtxtStudentID;
+    private javax.swing.JTextField jtxtSurname;
     private javax.swing.JTextField jtxtTotalScore;
     private javax.swing.JTextField jtxtTotalScore1;
     private javax.swing.JTextField jtxtTotalScore10;
@@ -1087,10 +1195,6 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     private javax.swing.JTextField jtxtTotalScore14;
     private javax.swing.JTextField jtxtTotalScore2;
     private javax.swing.JTextField jtxtTotalScore3;
-    private javax.swing.JTextField jtxtTotalScore4;
-    private javax.swing.JTextField jtxtTotalScore5;
-    private javax.swing.JTextField jtxtTotalScore6;
-    private javax.swing.JTextField jtxtTotalScore7;
     private javax.swing.JTextField jtxtTotalScore8;
     private javax.swing.JTextField jtxtTotalScore9;
     private javax.swing.JTextArea jtxtTranscript;
