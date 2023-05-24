@@ -40,7 +40,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="10" width="1350" height="700"/>
+          <AbsoluteConstraints x="10" y="10" width="1350" height="700"/>
         </Constraint>
       </Constraints>
 
@@ -108,6 +108,9 @@
                     </Property>
                     <Property name="text" type="java.lang.String" value="&#x414;&#x43e;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44c;"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnAddActionPerformed"/>
+                  </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                       <AbsoluteConstraints x="30" y="20" width="-1" height="40"/>
@@ -925,7 +928,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore3">
+                <Component class="javax.swing.JTextField" name="jtxtTotalScore">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1413,7 +1416,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore">
+                <Component class="javax.swing.JTextField" name="jtxtEmail">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1478,7 +1481,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore8">
+                <Component class="javax.swing.JTextField" name="jtxtDOB">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1491,7 +1494,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore9">
+                <Component class="javax.swing.JTextField" name="jtxtMobile">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1583,11 +1586,11 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="12" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="&#x420;&#x443;&#x43a;&#x43e;&#x432;&#x43e;&#x434;&#x438;&#x442;&#x435;&#x43b;&#x44c; &#x43f;&#x440;&#x43e;&#x433;&#x440;&#x430;&#x43c;&#x43c;&#x44b;"/>
+                    <Property name="text" type="java.lang.String" value="&#x421;&#x442;&#x430;&#x440;&#x43e;&#x441;&#x442;&#x430;"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="10" y="180" width="-1" height="-1"/>
+                      <AbsoluteConstraints x="60" y="180" width="60" height="20"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -1631,7 +1634,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore10">
+                <Component class="javax.swing.JTextField" name="jtxtCourseCode">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1644,7 +1647,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore11">
+                <Component class="javax.swing.JTextField" name="jtxtFaculty">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1657,7 +1660,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore12">
+                <Component class="javax.swing.JTextField" name="jtxtDekan">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1665,7 +1668,7 @@
                     <Property name="horizontalAlignment" type="int" value="0"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtTotalScore12ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtDekanActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1673,7 +1676,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore13">
+                <Component class="javax.swing.JTextField" name="jtxtCourseTeacher">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="14" style="0"/>
@@ -1681,7 +1684,7 @@
                     <Property name="horizontalAlignment" type="int" value="0"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtTotalScore13ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtCourseTeacherActionPerformed"/>
                   </Events>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1689,7 +1692,7 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jtxtTotalScore14">
+                <Component class="javax.swing.JTextField" name="jtxtStarosta">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="0"/>
@@ -1755,7 +1758,7 @@
                   </AuxValues>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="10" y="10" width="1260" height="490"/>
+                      <AbsoluteConstraints x="10" y="10" width="1280" height="490"/>
                     </Constraint>
                   </Constraints>
 
@@ -1791,7 +1794,7 @@
                             <Column editable="true" title="Score6" type="java.lang.Object"/>
                             <Column editable="true" title="Score7" type="java.lang.Object"/>
                             <Column editable="true" title="Score8" type="java.lang.Object"/>
-                            <Column editable="true" title="TotalScore" type="java.lang.Object"/>
+                            <Column editable="true" title="&#x412;&#x441;&#x435;&#x433;&#x43e; &#x431;&#x430;&#x43b;&#x43b;&#x43e;&#x432;" type="java.lang.Object"/>
                             <Column editable="true" title="&#x420;&#x435;&#x439;&#x442;&#x438;&#x43d;&#x433;" type="java.lang.Object"/>
                             <Column editable="true" title="&#x414;&#x430;&#x442;&#x430;" type="java.lang.Object"/>
                           </Table>
