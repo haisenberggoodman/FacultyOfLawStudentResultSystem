@@ -56,14 +56,17 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         
         try 
         {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             sqlCon = DriverManager.getConnection(dataCon, username, password);
+            if (sqlCon != null) {
+                System.out.println("Connected to the database test1");
+            }
             pst = sqlCon.prepareStatement("select * from resultdb");
             rs = pst.executeQuery();
             ResultSetMetaData stData = rs.getMetaData();
             
             q = stData.getColumnCount();
-            
+             // that is for my table 
             DefaultTableModel RecordTable = (DefaultTableModel)jTable1.getModel();
             RecordTable.setRowCount(0);
             
@@ -80,6 +83,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
                     columnData.add(rs.getString("Gender"));
                     columnData.add(rs.getString("DOB"));
                     columnData.add(rs.getString("Mobile"));
+                    columnData.add(rs.getString("Email"));
                     
                     columnData.add(rs.getString("Course"));
                     columnData.add(rs.getString("CourseCode"));
@@ -101,6 +105,10 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
                     columnData.add(rs.getString("Score6"));
                     columnData.add(rs.getString("Score7"));
                     columnData.add(rs.getString("Score8"));
+                    
+                    columnData.add(rs.getString("TotalScore"));
+                    columnData.add(rs.getString("Ranking"));
+                    columnData.add(rs.getString("Date"));
                     
                 }
                 RecordTable.addRow(columnData);
@@ -827,7 +835,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "ИД Студента", "Имя", "Фамилия", "Отчество", "Пол", "Дата рождения", "Телефон", "E-mail", "Специальность", "Код специальности", "Module1", "Module2", "Module3", "Module4", "Module5", "Module6", "Module7", "Module8", "Score1", "Score2", "Score3", "Score4", "Score5", "Score6", "Score7", "Score8", "Всего баллов", "Рейтинг", "Дата"
+                "StudentID", "Firstname", "Surname", "Otchestvo", "Gender", "DOB", "Mobile", "Email", "Course", "CourseCode", "Module1", "Module2", "Module3", "Module4", "Module5", "Module6", "Module7", "Module8", "Score1", "Score2", "Score3", "Score4", "Score5", "Score6", "Score7", "Score8", "TotalScore", "Ranking", "Date"
             }
         ));
         jTable1.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
@@ -1250,16 +1258,16 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
     }//GEN-LAST:event_jbtnResetActionPerformed
 
     private void jbtnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnAddActionPerformed
-        // TODO add your handling code here:
+        // all of the rules for the fields
         try 
         {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             sqlCon = DriverManager.getConnection(dataCon, username, password);
             pst = sqlCon.prepareStatement("insert into resultdb(StudentID, Firstname, Surname, Otchestvo, Gender," 
-                + " DOB, Mobile, Email, Course, CourseCode, M" +
-                "Module1, Module2,Module3,Module4,Module5,Module6,Module7,Module8" +
-                "Score1,Score2,Score3,Score4,Score5,Score6,Score7,Score8m TotalScore, Ranking, Date)"
-                    +"value(7, 7, 7, 7,7, 7, 7, 7,7, 7, 7, 7,7, 7, 7, 7,7, 7, 7, 7,7, 7, 7, 7,7, 7, 7, 7, 7");
+                + "DOB, Mobile, Email, Course, CourseCode," +
+                "Module1, Module2, Module3, Module4, Module5, Module6, Module7, Module8," +
+                "Score1, Score2, Score3, Score4, Score5, Score6, Score7, Score8, TotalScore, Ranking, Date)"
+                    + "value(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
         
         pst.setString(1, (String)jtxtStudentID.getText());
         pst.setString(2, (String)jtxtFirstname.getText());
@@ -1300,13 +1308,10 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
        uploadDB();
         
         }
-        catch(ClassNotFoundException ex)
+        catch(ClassNotFoundException | SQLException ex)
         {
-            java.util.logging.Logger.getLogger(FacultyOfLawStudentResultSystem.class.getName()).log(java.util.logging.Level.SEVERE,null, ex);
-        }
-        catch(SQLException ex)
-        {
-            java.util.logging.Logger.getLogger(FacultyOfLawStudentResultSystem.class.getName()).log(java.util.logging.Level.SEVERE,null, ex);
+            java.util.logging.Logger.getLogger(FacultyOfLawStudentResultSystem.class.getName()).log
+                (java.util.logging.Level.SEVERE,null, ex);
         }
         
         
