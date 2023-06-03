@@ -9,6 +9,9 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
+import org.netbeans.lib.awtextra.*;
+
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -26,6 +29,10 @@ import java.util.Vector;
 import javax.swing.JTable;
 import javax.swing.event.DocumentListener;
 import javax.swing.table.TableColumn;
+import java.util.logging.Logger;
+
+import org.netbeans.lib.awtextra.AbsoluteConstraints;
+import org.netbeans.lib.awtextra.AbsoluteLayout;
 
 /**
  *
@@ -35,7 +42,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
 
     String username = "root";
     String password = "123456";
-    String dataCon = "jdbc.mysql://localhost:3306/resultdb";
+    String dataCon = "jdbc:mysql://localhost:3306/resultdb";
     
     Connection sqlCon = null;
     PreparedStatement pst = null;
@@ -76,7 +83,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
                 
                 for (i = 1; i <= q; i++) {
                     
-                    columnData.add(rs.getString("StudentID"));
+                    columnData.add(rs.getLong("StudentID"));
                     columnData.add(rs.getString("Firstname"));
                     columnData.add(rs.getString("Surname"));
                     columnData.add(rs.getString("Otchestvo"));
@@ -97,16 +104,16 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
                     columnData.add(rs.getString("Module7"));
                     columnData.add(rs.getString("Module8"));
                     
-                    columnData.add(rs.getString("Score1"));
-                    columnData.add(rs.getString("Score2"));
-                    columnData.add(rs.getString("Score3"));
-                    columnData.add(rs.getString("Score4"));
-                    columnData.add(rs.getString("Score5"));
-                    columnData.add(rs.getString("Score6"));
-                    columnData.add(rs.getString("Score7"));
-                    columnData.add(rs.getString("Score8"));
+                    columnData.add(rs.getInt("Score1"));
+                    columnData.add(rs.getInt("Score2"));
+                    columnData.add(rs.getInt("Score3"));
+                    columnData.add(rs.getInt("Score4"));
+                    columnData.add(rs.getInt("Score5"));
+                    columnData.add(rs.getInt("Score6"));
+                    columnData.add(rs.getInt("Score7"));
+                    columnData.add(rs.getInt("Score8"));
                     
-                    columnData.add(rs.getString("TotalScore"));
+                    columnData.add(rs.getInt("TotalScore"));
                     columnData.add(rs.getString("Ranking"));
                     columnData.add(rs.getString("Date"));
                     
@@ -569,7 +576,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jPanel5.add(jtxtTotalScore, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 380, 240, 30));
 
         jcboModule3.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jcboModule3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Основы проектной деятельности                  ", "Саморазвитие и инклюзивная подготовка персонала", "Правовое обеспечение национальной безопасности", " " }));
+        jcboModule3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право", "Административное право", "Административное право", " " }));
         jcboModule3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jcboModule3ActionPerformed(evt);
@@ -578,7 +585,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jPanel5.add(jcboModule3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 250, 30));
 
         jcboModule1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jcboModule1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право                         ", "Гражданское право                              ", "Иностранный язык в сфере юриспруденции         ", " ", " " }));
+        jcboModule1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право", "Административное право", "Административное право", " ", " " }));
         jcboModule1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jcboModule1ActionPerformed(evt);
@@ -587,7 +594,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jPanel5.add(jcboModule1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 250, 30));
 
         jcboModule2.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jcboModule2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Основы информационной безопасности             ", "Правовые основы социального государства        ", "Трудовое право                                 ", " " }));
+        jcboModule2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право", "Административное право", "Административное право", " " }));
         jcboModule2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jcboModule2ActionPerformed(evt);
@@ -596,7 +603,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jPanel5.add(jcboModule2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 250, 30));
 
         jcboModule6.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jcboModule6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Политическая система общества                  ", "Уголовное право                                ", "Основы управления проектами                    ", " " }));
+        jcboModule6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право", "Административное право", "Административное право", " " }));
         jcboModule6.setToolTipText("");
         jcboModule6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -606,7 +613,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jPanel5.add(jcboModule6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 260, 250, 30));
 
         jcboModule5.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jcboModule5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Физическая культура и спорт                    ", "Конституционное право                          ", "Административное право                         ", " " }));
+        jcboModule5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право", "Административное право", "Административное право", " " }));
         jcboModule5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jcboModule5ActionPerformed(evt);
@@ -615,7 +622,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jPanel5.add(jcboModule5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 250, 30));
 
         jcboModule4.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jcboModule4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Гражданское право                              ", "Муниципальное правоМуниципальное право                            ", "Правовые основы антикоррупционного поведения   ", " " }));
+        jcboModule4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право", "Административное право", "Административное право", " " }));
         jcboModule4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jcboModule4ActionPerformed(evt);
@@ -633,7 +640,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jPanel5.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 180, 190, 30));
 
         jcboModule7.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jcboModule7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Иностранный язык                               ", "Философия                                      ", "Удмуртский язык в межкультурной коммуникации   ", " " }));
+        jcboModule7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право", "Административное право", "Административное право", " " }));
         jcboModule7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jcboModule7ActionPerformed(evt);
@@ -642,7 +649,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jPanel5.add(jcboModule7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 300, 250, 30));
 
         jcboModule8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jcboModule8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Конституционное право                          ", "Административное право                         ", "Саморазвитие и инклюзивная подготовка персонала" }));
+        jcboModule8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { " ", "Административное право", "Административное право", "Административное право", " " }));
         jcboModule8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jcboModule8ActionPerformed(evt);
@@ -719,7 +726,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jtxtTotalScore2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jPanel7.add(jtxtTotalScore2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 380, 240, 30));
 
-        jtxtEmail.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtEmail.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         jtxtEmail.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jPanel7.add(jtxtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 300, 240, 30));
 
@@ -735,7 +742,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jtxtFirstname.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jPanel7.add(jtxtFirstname, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 100, 240, 30));
 
-        jtxtOtchestvo.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtOtchestvo.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         jtxtOtchestvo.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jPanel7.add(jtxtOtchestvo, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 140, 240, 30));
 
@@ -793,7 +800,7 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         jtxtFaculty.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jPanel4.add(jtxtFaculty, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 90, 220, 30));
 
-        jtxtDekan.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        jtxtDekan.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jtxtDekan.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jtxtDekan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -871,14 +878,14 @@ public class FacultyOfLawStudentResultSystem extends javax.swing.JFrame {
         + "=====================================================\n"
         + "Номер регистрации студента:\t\t " + jtxtStudentID.getText() + "\n\n"
         + "Имя:     " + jtxtSurname.getText() + "\t     " + jtxtFirstname.getText() + "\t" + jtxtOtchestvo.getText() +  "\n\n"
-        + "1: " + jcboModule1.getSelectedItem()+ jtxtScore1.getText() + "\n\n"
-        + "2: " + jcboModule2.getSelectedItem()+ jtxtScore2.getText() + "\n\n"
-        + "3: " + jcboModule3.getSelectedItem()+ jtxtScore3.getText() + "\n\n"
-        + "4: " + jcboModule4.getSelectedItem()+ jtxtScore4.getText() + "\n\n"
-        + "5: " + jcboModule5.getSelectedItem()+ jtxtScore5.getText() + "\n\n"
-        + "6: " + jcboModule6.getSelectedItem()+ jtxtScore6.getText() + "\n\n"
-        + "7: " + jcboModule7.getSelectedItem()+ jtxtScore7.getText() + "\n\n"
-        + "8: " + jcboModule8.getSelectedItem()+ jtxtScore8.getText() + "\n\n"
+        + "1: " + jcboModule1.getSelectedItem()+ "\t     " + jtxtScore1.getText() + "\n\n"
+        + "2: " + jcboModule2.getSelectedItem()+ "\t     " + jtxtScore2.getText() + "\n\n"
+        + "3: " + jcboModule3.getSelectedItem()+ "\t     " + jtxtScore3.getText() + "\n\n"
+        + "4: " + jcboModule4.getSelectedItem()+ "\t     " + jtxtScore4.getText() + "\n\n"
+        + "5: " + jcboModule5.getSelectedItem()+ "\t     " + jtxtScore5.getText() + "\n\n"
+        + "6: " + jcboModule6.getSelectedItem()+ "\t     " + jtxtScore6.getText() + "\n\n"
+        + "7: " + jcboModule7.getSelectedItem()+ "\t     " + jtxtScore7.getText() + "\n\n"
+        + "8: " + jcboModule8.getSelectedItem()+ "\t     " + jtxtScore8.getText() + "\n\n"
         + "=====================================================\n"
         + "Всего баллов: \t\t"            + jtxtTotalScore.getText() + "\n"
         + "Рейтинг: \t\t"            + jtxtRanking.getText() + "\n"
